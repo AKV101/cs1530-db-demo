@@ -56,7 +56,7 @@ public class App {
                         TODO: Retrieve input from the user for the storeNumber to be queried
                               Then retrieve all stores with the storeNumber by replacing the Null assignment below
                          */
-                        int storenumber = scanner.nextLine();
+                        int storenumber = scanner.nextInt();
                         queryResults = storeHelper.findByStoreNumber(storenumber);
                         printResultRows(queryResults);
                         break;
